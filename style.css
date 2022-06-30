@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+  overflow: hidden
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: .2s linear;
+  border: 3px solid black;
+  position: absolute
+}
+
+.score {
+  position: fixed;
+  left: 0;
+  top: 0;
+}
